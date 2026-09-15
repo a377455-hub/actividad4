@@ -11,5 +11,5 @@ temperatura = st.number_input(
   elif temperatura >10 and temperatura <=24:
   print("La temperatura es agradable.")
   else:
-  print("Hace calor.)
+  print("Hace calor.")
   
