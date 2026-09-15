@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title ("Clasificador de temperatura")
 
-temperatura = st.number_input(20)
+temperatura = st.number_input()
 "Introduce la temperatura en °C"
 if temperatura < 10:
  st.write("Hace frío.")
